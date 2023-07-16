@@ -11,7 +11,7 @@
 
 
 ---
-<center><img src="https://raw.githubusercontent.com/newtoolsgh/Volt-UDP-Xtra/main/etc/UDPXtra/banner.jpg" alt="banner" width="350"/></center>
+<center><img src="https://raw.githubusercontent.com/newtoolsgh/Volt-UDP-Xtra/main/etc/UDPXtra/banner.png" alt="banner" width="350"/></center>
 
 ---
 ## Changelog: 
