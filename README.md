@@ -15,7 +15,11 @@
 
 ---
 ## Changelog: 
-0.0.1
+0.0.0
+## To Do:
+- _Manager Bot_
+- _Online/Active user count_
+- _others..._
 
 ---
 
@@ -27,6 +31,10 @@
 You must have purchased a Key!
 
 ⇢ if you didn't, contact [Volt*V3r!f.y](https://t.me/voltverifybot)
+
+## Note!
+Some menu options may not reproduce as there are complex under the hood stuff to be done.
+Such fixes and improvements will be done in the subsequent releases
 
 ## Install on VPS
 ```
