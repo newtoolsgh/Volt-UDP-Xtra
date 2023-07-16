@@ -33,7 +33,9 @@ You must have purchased a Key!
 ⇢ if you didn't, contact [Volt*V3r!f.y](https://t.me/voltverifybot)
 
 ## Note!
-Some menu options may not reproduce as there are complex under the hood stuff to be done.
+- **THIS IS NOT A PERFECT TOOL**
+- I assume you know how UDP works, don't come spamming with unnecessary questions! 
+- Some menu options may not reproduce as there are complex under the hood stuff to be done.
 Such fixes and improvements will be done in the subsequent releases
 
 ## Install on VPS
