@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # UDP Xtra Manager Telegram Bot
+# Date: Jul 17, 2023.
 
 # Check if the TOKEN and CHAT_ID environment variables are already set
 if [[ -z $TELEGRAM_BOT_TOKEN || -z $TELEGRAM_CHAT_ID ]]; then
@@ -77,7 +78,8 @@ message_handler() {
     fi
 }
 
-while true; do
+# Start the bot in the background using nohup
+nohup bash -c 'while true; do
     start
     while read -r update; do
         callback_data=$(echo "$update" | jq -r ".callback_query.data")
@@ -89,4 +91,7 @@ while true; do
         fi
     done
     sleep 1
-done
+done' > /dev/null 2>&1 &
+
+echo "Bot is running..."
+echo "Press enter to go menu!"
