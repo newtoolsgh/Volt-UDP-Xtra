@@ -46,7 +46,9 @@ sudo -s
 wget "https://raw.githubusercontent.com/newtoolsgh/Volt-UDP-Xtra/main/volt.sh" -O volt.sh && chmod +x volt.sh && ./volt.sh
 ```
 > after successful installation & reboot, type:
-
+```
+udpx
+```
 ---
 ## Client App available on Google Playstore:
 
